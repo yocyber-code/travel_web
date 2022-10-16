@@ -9,7 +9,7 @@ export const mutations = {
 };
 
 export const actions = {
-  getRecommendProduct(state, payload) {
+  setTheme(state, payload) {
     state.commit("SET_THEME", payload);
   },
 };

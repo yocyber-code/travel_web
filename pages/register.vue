@@ -348,6 +348,12 @@ export default {
   &.lightblue {
     background-color: #6ccdf3;
   }
+  &.redblack {
+    background-color: #950101;
+  }
+  &.darkgold {
+    background-color: #000;
+  }
 
   .login-form {
     width: 100%;
@@ -384,5 +390,11 @@ export default {
 
 .lightblue {
   color: #fff;
+}
+.redblack {
+  color: #000;
+}
+.darkgold {
+  color: #d89216;
 }
 </style>

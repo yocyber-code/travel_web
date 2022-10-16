@@ -154,6 +154,12 @@ export default {
   &.lightblue {
     background-color: #6ccdf3;
   }
+  &.redblack {
+    background-color: #950101;
+  }
+  &.darkgold {
+    background-color: #000;
+  }
 
   .login-form {
     width: 100%;
@@ -163,6 +169,12 @@ export default {
       margin-bottom: 40px;
       &.lightblue {
         color: #fff;
+      }
+      &.redblack {
+        color: #000;
+      }
+      &.darkgold {
+        color: #d89216;
       }
     }
     .input-content {
@@ -178,6 +190,14 @@ export default {
           &.lightblue {
             background-color: #707070;
           }
+          &.redblack {
+            background-color: #950101;
+            color: #000;
+          }
+          &.darkgold {
+            background-color: #000;
+            color: #d89216;
+          }
         }
       }
     }
@@ -186,5 +206,11 @@ export default {
 
 .lightblue {
   color: #fff;
+}
+.redblack {
+  color: #000;
+}
+.darkgold {
+  color: #d89216;
 }
 </style>
